@@ -1,0 +1,81 @@
+/* Contenedor principal */
+.eventlist-container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, #49746F 63%, #C6D1D0 100%);
+  min-height: 100vh;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.eventlist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #d1d1d1;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-button.active {
+  font-weight: bold;
+  color: #4169e1;
+}
+
+.profile-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Título */
+.eventlist-title {
+  margin: 20px 0;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Lista de eventos */
+.eventlist {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+/* Tarjetas de eventos */
+.event-card {
+  display: flex;
+  justify-content: space-between;
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.event-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.notification-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
